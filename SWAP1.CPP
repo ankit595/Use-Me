@@ -1,13 +1,11 @@
-#include<stdio.h>
-int main()
-{
-      int a,b,temp;
-      printf("enter two numbers");
-      scanf("%d%d",&a,&b);
-       printf("a : %d,b : %d\n",a,b);
-      temp=a;
-      a=b;
-      b=temp;
-      printf("a : %d,b : %d\n",a,b);
-      return 0;
-}
+#include<stdio.h>  
+int main()    
+{    
+int a=10, b=20;      
+printf("Before swap a=%d b=%d",a,b);      
+a=a+b;  
+b=a-b;
+a=a-b;
+printf("\nAfter swap a=%d b=%d",a,b);    
+return 0;  
+}   
