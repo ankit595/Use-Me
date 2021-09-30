@@ -13,8 +13,8 @@ int fib(int n)
 int main()
 {
     int n, num=0;
-    cout<<"Enter the no. of term you want in fibonaci series: ";
+    cout<<"Enter the no. of term you want to search in fibonaci series: ";
     cin>>n;
     num = fib(n);
-    cout<<"Term is: "<<num;
+    cout<<"nth Term of Fibonacci series is: "<<num;
 }
